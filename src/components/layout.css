@@ -5,6 +5,40 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+.imGcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+.floatCenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  width: 80%;
+
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  text-align: center;
+  margin-left: auto;
+  transform: translate(-50%, -50%);
+}
+
+footer h4 {
+  margin: 0;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
